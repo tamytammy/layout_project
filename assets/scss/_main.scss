@@ -6,11 +6,17 @@
     padding: 20px;
     border: 2px solid red;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     &__img{
-        width: 20%;
+        width: 400px;
         height: 300px;
         border: 1px solid black;
+        @include respond(mobile) {
+            width: 300px;
+            height: 200px;
+            margin: 0 auto;
+        }
     }
     &__text{
         display: flex;
