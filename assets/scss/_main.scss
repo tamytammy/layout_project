@@ -1,0 +1,43 @@
+
+
+.main-content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid red;
+    display: flex;
+    gap: 30px;
+    &__img{
+        width: 400px;
+        height: 300px;
+        border: 1px solid black;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p{
+            span{
+                border: 1px solid #a4a4a4;
+                padding: 5px;
+                border-radius: 40px;
+            }
+        }
+        &-date{
+            display: flex;
+            flex-direction: column;
+        }
+        &-link{
+            a{
+                display: inline-block;
+                text-decoration: none;
+                color: #000;
+                border: 1px solid #000;
+                text-align: center;
+                width: 100px;
+                padding: 5px;
+                border-radius: 100px;
+            }
+        }
+    }
+}

@@ -4,6 +4,10 @@
         "title": "Practice 1",
         "description": "Description for practice 1",
         "URL": "./practice1.html",
-        "date": "2025-07-31"
+        "start-date": "2025-07-31",
+        "end-date": "",
+        "status": "In Progress",
+        "tags": ["HTML", "CSS"],
+        "image": "./images/practice1.png"
     }
 ]
