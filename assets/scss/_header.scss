@@ -1,7 +1,10 @@
-
-
 .header-container{
-    background-color: #a4a4a4;
-    height: 60px;
+background-color: #ece9e9;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
 }
