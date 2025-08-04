@@ -1,0 +1,190 @@
+.header-container{
+    max-width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+}
+button.primary-button{
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#000, #000),
+                      linear-gradient(to right, #3627DE, #EE5622);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.banner-container{
+    background-color: #f7f7f7;
+    width: 100%;
+}
+.banner-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 0;
+}
+.content1 h2{
+    font-size: 57.38px;
+}
+.content1 p{
+    font-size: 14px;
+    color: #696969;
+    padding: 20px 0;
+}
+button.secondary-button{
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.com-container{
+    width: 100%;
+    padding: 50px 0;
+    height:300px;   
+}
+.com-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.com-content p {
+    text-align: center;
+    font-size: 14px;
+    color: #696969;
+padding: 20px 0;
+}
+.com-content .image-com{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 700px;
+}
+.func-container{
+    width: 100%;
+    padding: 50px 0;
+}
+.func-container h2{
+    text-align: center;
+    font-size: 57px;
+}
+.funcs-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+.funcs{
+    background-color: #fcfcfc;
+    border: 1px solid #cac0f1;
+    border-radius: 8px;
+    width: 302px;
+    height: 208px;
+    padding: 15px;
+}
+.funcs h4{
+    font-size: 21px;
+}
+.funcs p i{
+    font-size: 32px;
+    color: #8a8a8a;
+    }
+.funcs p{
+    font-size: 14px;
+        color: #8a8a8a;
+    }
+.source-container{
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+.saas-container{
+    width: 100%;
+    padding: 50px 0;
+}
+.saas-container h2{
+    text-align: center;
+    font-size: 57px;
+
+}
+.saas-box{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+.saas-logo{
+    background-color: #f6f6f6;
+    border: 1px solid #e2e2e2;
+    width: 628px;
+    height: 315px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.saas-logo:first-child{
+    border-right: 1px solid #c1c1c1;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-box h4{
+    font-size: 25px;
+}
+.text-box p{
+    font-size: 14px;
+    color: #696969;
+}
+.text-box a{
+    text-decoration: none;
+    color: #3627DE;
+}
+.bg-box{
+    max-width:1280px;
+    height: 494px;
+    margin: 0 auto;
+    background-image: url('../images/1/bg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 50px 150px;
+}
+.bg-box h2{
+    color: #fff;
+    text-align: left;
+}
+
+.bg-box .button-box{
+    width: 300px;
+}
