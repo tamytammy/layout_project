@@ -23,7 +23,7 @@ function renderProjects(){
                     <div class="main-content__img"><img src="${img}" alt="${p.title}"></div>
                     <div class="main-content__text">
                         <h1>${p.title}</h1>
-                        <p class="tag-container"></p>
+                        <p class="tag-container" data-id="${p.id}"></p>
                         <p>${p.description}</p>
     
                         <div class="main-content__text-date">
@@ -39,7 +39,7 @@ function renderProjects(){
 
 
         projectList.innerHTML += projectHtml;
-        let tagList = document.querySelector('.tag-container');
+        let tagList = document.querySelector(`.tag-container[data-id="${p.id}"]`);
         tagList.innerHTML += p.tags.map(t => `<span class="tag">${t}</span>`).join('');
     })
 }

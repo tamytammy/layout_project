@@ -6,5 +6,12 @@ background-color: #ece9e9;
     align-items: center;
     position: sticky;
     top: 0;
+    .logo-box{
+        img{
+            @include respond(mobile) {
+                width: 200px;
+            }
+        }
+    }
 
 }
