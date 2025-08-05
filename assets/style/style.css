@@ -36,7 +36,6 @@
 }
 .main-content__img {
   min-width: 400px;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,6 +46,9 @@
     height: 200px;
     margin: 0 auto;
   }
+}
+.main-content__img img {
+  max-width: 400px;
 }
 .main-content__text {
   display: flex;

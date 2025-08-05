@@ -8,19 +8,19 @@
         "end-date": "",
         "status": "測試中",
         "tags": ["HTML", "CSS"],
-        "image": "./images/test-web.png.png",
+        "image": "",
         "source": ""
     },
     {
         "id": 2,
-        "title": "Practice 2",
+        "title": "Practice 1",
         "description": "Description for practice 2",
-        "URL": "./practice2.html",
-        "start-date": "2025-08-01",
-        "end-date": "",
-        "status": "測試中",
-        "tags": ["JavaScript", "React"],
-        "image": "./images/test-web.png.png",
-        "source": ""
+        "URL": "./practice1.html",
+        "start-date": "2025-08-04",
+        "end-date": "2025-08-05",
+        "status": "基礎完成",
+        "tags": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "image": "./assets/images/practice1.png",
+        "source": "Figma 社群"
     }
 ]

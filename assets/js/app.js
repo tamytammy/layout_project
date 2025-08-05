@@ -16,7 +16,7 @@ $.ajax({
 function renderProjects(){
     let projectList = document.querySelector('.main')
     projectData.forEach(p => {
-        let img = p.images || "./assets/images/test-web.png.png";
+        let img = p.image || "./assets/images/test-web.png.png";
         let endDate = p["end-date"] || "進行中";
         let projectHtml = `
             <div class="main-content">
