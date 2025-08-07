@@ -19,7 +19,7 @@
         "start-date": "2025-08-04",
         "end-date": "2025-08-05",
         "status": "基礎完成",
-        "tags": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "tags": ["HTML", "CSS", "JavaScript"],
         "image": "./assets/images/practice1.png",
         "source": "Figma 社群"
     },
@@ -29,9 +29,9 @@
         "description": "Description for practice 2",
         "URL": "./practice2.html",
         "start-date": "2025-08-05",
-        "end-date": "",
-        "status": "進行中",
-        "tags": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "end-date": "2025-08-06",
+        "status": "完成",
+        "tags": ["HTML", "CSS", "JavaScript"],
         "image": "./assets/images/practice2.png",
         "source": "Figma 社群"
     }
